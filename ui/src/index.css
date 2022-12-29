@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+#root {
+  height: 100%;
+}
+
+.MainContent {
+  height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 0;
+}
+
+section.loginPage {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+section.homePage{
+  width: 100%;
+  height: 100vh;    
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+section.projectPage{
+  width: 100%;
+  height: 100vh;    
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+section.AccordianReviewPage{
+  width: 100%;
+  height: 100%;    
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+section.projectPage .rdt_TableHeader{
+flex: none;
+}
+
+section.projectPage header{
+flex: none;
+}
+
+.content {
+  
+  display: flex;
+  height: calc(100% - 100px);
+  width: 100%;
+}
+
+.column-left {
+  display: flex;
+  height: 100%;
+  width: 25%;
+  background: #fcfcfc;
+  padding: 1rem;
+}
+
+.rct-text {
+  display: block !important;
+}
+
+.column-right {
+  background: #fff;
+  height: 100%;
+  width: 75%;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  
+  width: 100%;
+  height: 70px;
+  background: #233f78;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #0000ff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  padding: 0.25rem;  
+}
+
+label{
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #000;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.flexGrow {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
+    width: 100%;
+}
+
+.breadcrumbs-container {  
+  display: flex;
+  font-size: 14px;
+  color:#233f78;
+  background-color: #f5f5f5;
+  padding: 0.2rem 1rem;
+  width: 100%;
+}
+
+.breadcrumbs-container a {  
+  color:#233f78;
+}
+
+.drop-files-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed 2px #ccc;
+  color: #ccc;
+  padding: 0.5rem;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+
+.line-content {
+  width: 86%;  
+}
+.percentage {
+  width: 14%;
+  text-align: right;
+}

@@ -1,0 +1,40 @@
+{
+  "value": "p1",
+  "label": "Brown Jordan Fabrics Project",
+  "children": [
+    {
+      "value": "1",
+      "label": "Draft (0)",
+      "icon": ""
+    },
+    {
+      "value": "2",
+      "label": "In Review (1)",
+      "icon": "",
+      "children": [
+        {
+          "value": "A4",
+          "label": "Fabrics (6)",
+          "icon": "",
+          "children": [
+            {
+              "value": "A14",
+              "label": "Suncloth (4)",
+              "icon": ""
+            },
+            {
+              "value": "A15",
+              "label": "Flexslings (2)",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "3",
+      "label": "Resolved (0)",
+      "icon": ""
+    }
+  ]
+}

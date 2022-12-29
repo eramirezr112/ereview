@@ -1,0 +1,102 @@
+[
+  {
+    "value": "J1CA18",
+    "label": "AnguillaPost",
+    "mailProcessingCenters": [
+      {
+        "code": "AIAXAA",
+        "name": "ANGUILLA"
+      }
+    ],
+    "code": "J1CA18",
+    "shortCode": "A18",
+    "shortName": "AnguillaPost"
+  },
+  {
+    "value": "J1CADA",
+    "label": "AndorraPost",
+    "mailProcessingCenters": [],
+    "code": "J1CADA",
+    "shortCode": "ADA",
+    "shortName": "AndorraPost"
+  },
+  {
+    "value": "J1CAEA",
+    "label": "EmiratesPost",
+    "mailProcessingCenters": [
+      {
+        "code": "AEAUHA",
+        "name": "ABU DHABI"
+      },
+      {
+        "code": "AEDXBA",
+        "name": "DUBAI"
+      },
+      {
+        "code": "AEDXBB",
+        "name": "DUBAI RASID SEA-PORT"
+      },
+      {
+        "code": "AEDXBD",
+        "name": "DUBAI TRANSIT / HUB"
+      },
+      {
+        "code": "AEDXBE",
+        "name": "DUBAI - SOMALIA"
+      },
+      {
+        "code": "AUSYDK",
+        "name": "SYDNEY K (EMIRATES - DIRECT LINK)"
+      },
+      {
+        "code": "GBLONO",
+        "name": "LONDON"
+      },
+      {
+        "code": "SGSINO",
+        "name": "SINGAPORE"
+      },
+      {
+        "code": "SGSINQ",
+        "name": "SINGAPORE Q, UAE"
+      },
+      {
+        "code": "USCHIE",
+        "name": "CHICAGO E"
+      },
+      {
+        "code": "USJECU",
+        "name": "NEW JERSEY U EMIRATES POST"
+      }
+    ],
+    "code": "J1CAEA",
+    "shortCode": "AEA",
+    "shortName": "EmiratesPost"
+  },
+  {
+    "value": "J1CAFA",
+    "label": "Afghan Post",
+    "children": [
+      { "value": "AFKBLA", "label": "KABUL" },
+      { "value": "AFKBLC", "label": "KABUL C" },
+      { "value": "AFKBLS", "label": "KABUL EMS SHAHEEN POST" }
+    ],
+    "mailProcessingCenters": [
+      {
+        "code": "AFKBLA",
+        "name": "KABUL"
+      },
+      {
+        "code": "AFKBLC",
+        "name": "KABUL C"
+      },
+      {
+        "code": "AFKBLS",
+        "name": "KABUL EMS SHAHEEN POST"
+      }
+    ],
+    "code": "J1CAFA",
+    "shortCode": "AFA",
+    "shortName": "Afghan Post"
+  }
+]

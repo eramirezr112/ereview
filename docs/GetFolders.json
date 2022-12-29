@@ -1,0 +1,54 @@
+{
+	"id": 1,
+	"name": "Brown Jordan Fabrics Project",
+	"type": "Project",
+	"children": [
+		{
+			"id": 1,
+			"name": "Draft",
+			"type": "State",
+			"number_of_reviews": "0",
+			"children": []
+		},
+		{
+			"id": 2,
+			"name": "In Review",
+			"type": "State",
+			"number_of_reviews": "10",
+			"children": [
+				{
+					"id": 2,
+					"name": "Fabrics",
+					"type": "Folder",
+					"number_of_reviews": "10",
+					"children": [
+						{
+							"id": 2,
+							"name": "Suncloth",
+							"type": "Folder",
+							"number_of_reviews": "10",
+							"children": [
+							
+							]
+						}
+					]
+				},
+
+				{
+					"id": 2,
+					"name": "Flexslings",
+					"type": "Folder",
+					"number_of_reviews": "0",
+					"children": [	]
+				}
+			
+			]
+		},
+		{
+			"id": 3,
+			"name": "Resolved",
+			"type": "State",
+			"number_of_reviews": "1",
+			"children": []
+		}]
+}
